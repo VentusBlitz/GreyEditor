@@ -1,0 +1,144 @@
+body {
+  text-align: center;
+  background-color:#0a0a0a !important;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+#code{
+  background-color: white;
+  width: 85%;
+  border-radius:10px;
+  border:5px solid #575757;
+}
+
+textarea {
+  width: 32%;
+  
+  min-height: 250px;
+  overflow: auto;
+  margin: auto;
+  display: inline-block;
+  background: #1c1c1f;
+
+  outline: none;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  color: white !important;
+
+  border-radius: 10px;
+  resize: none;
+  padding:5px;
+  border:2px solid #575757;
+}
+#html,#css,#js{
+    border-radius: 10px;
+    padding:5px;
+    border:2px solid #575757;
+    overflow: auto;
+    max-height: 250px;
+    min-height: 250px;
+    display: inline-block;
+    background: #1c1c1f;
+    resize: none;
+    width: 32%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: white !important;
+    text-align:left;
+    -webkit-transition : border 500ms ease-out; 
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+}
+
+#html:focus,#css:focus,#js:focus{
+        outline: none;
+        border:2px solid #d1d1d1dc;
+    }
+[placeholder]:empty::before {
+    content: attr(placeholder);
+    color: rgb(155, 155, 155); 
+}
+
+[placeholder]:empty:focus::before {
+    content: "";
+}
+
+iframe {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 35em;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #939399; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666666; 
+}
+/*--------------------------PLACEHOLDER----------------------------*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #939399;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #939399;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #939399;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #939399;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #666666;
+  color: white;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+}
+#sitelogo{
+  width:50%;
+  height:auto;
+}
+#footer{
+    background-color: #333;
+    padding:5px;
+    color:#a8a8a8;
+
+}
